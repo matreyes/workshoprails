@@ -21,3 +21,8 @@
 
 en:
   hello: "Hello world"
+  groups:
+    index:
+      title: "Groups list --- #%{cantidad}"
+      no_groups: "There is not any group"
+

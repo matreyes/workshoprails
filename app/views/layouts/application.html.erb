@@ -8,7 +8,18 @@
 </head>
 <body>
 
-<%= yield %>
-
+  <!-- .navbar.navbar-default.navbar-fixed-top>nav.container -->
+  <header class="navbar navbar-default navbar-fixed-top">
+    <nav class="container">
+      <%= render 'generals/navbar_header' %>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <%= render 'generals/navbar_main_menu' %>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
